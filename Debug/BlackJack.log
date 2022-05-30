@@ -1,0 +1,40 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(514,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (W11_Example.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+Sprite.obj : error LNK2019: unresolved external symbol _SDL_GetError referenced in function "private: void __thiscall Sprite::load(char const *,struct SDL_Renderer *)" (?load@Sprite@@AAEXPBDPAUSDL_Renderer@@@Z)
+Main.obj : error LNK2001: unresolved external symbol _SDL_GetError
+Sprite.obj : error LNK2019: unresolved external symbol _SDL_RenderCopy referenced in function "public: void __thiscall Sprite::draw(struct SDL_Renderer *)" (?draw@Sprite@@QAEXPAUSDL_Renderer@@@Z)
+Main.obj : error LNK2001: unresolved external symbol _SDL_RenderCopy
+Sprite.obj : error LNK2019: unresolved external symbol _SDL_DestroyTexture referenced in function "public: __thiscall Sprite::~Sprite(void)" (??1Sprite@@QAE@XZ)
+Main.obj : error LNK2001: unresolved external symbol _SDL_DestroyTexture
+Sprite.obj : error LNK2019: unresolved external symbol _IMG_LoadTexture referenced in function "private: void __thiscall Sprite::load(char const *,struct SDL_Renderer *)" (?load@Sprite@@AAEXPBDPAUSDL_Renderer@@@Z)
+Main.obj : error LNK2019: unresolved external symbol _SDL_RWFromFile referenced in function _SDL_main
+Main.obj : error LNK2019: unresolved external symbol _SDL_FreeSurface referenced in function "void __cdecl cleanUp(void)" (?cleanUp@@YAXXZ)
+Main.obj : error LNK2019: unresolved external symbol _SDL_CreateWindow referenced in function _SDL_main
+Main.obj : error LNK2019: unresolved external symbol _SDL_PollEvent referenced in function "void __cdecl doubleDown(void)" (?doubleDown@@YAXXZ)
+Main.obj : error LNK2019: unresolved external symbol _SDL_CreateRenderer referenced in function _SDL_main
+Main.obj : error LNK2019: unresolved external symbol _SDL_CreateTextureFromSurface referenced in function "void __cdecl playNew(void)" (?playNew@@YAXXZ)
+Main.obj : error LNK2019: unresolved external symbol _SDL_RenderPresent referenced in function "void __cdecl aiPlay(void)" (?aiPlay@@YAXXZ)
+Main.obj : error LNK2019: unresolved external symbol _SDL_GetTicks referenced in function "void __cdecl doubleDown(void)" (?doubleDown@@YAXXZ)
+Main.obj : error LNK2019: unresolved external symbol _SDL_Init referenced in function _SDL_main
+Main.obj : error LNK2019: unresolved external symbol _SDL_Quit referenced in function _SDL_main
+Main.obj : error LNK2019: unresolved external symbol _TTF_Init referenced in function _SDL_main
+Main.obj : error LNK2019: unresolved external symbol _TTF_OpenFont referenced in function _SDL_main
+Main.obj : error LNK2019: unresolved external symbol _TTF_SetFontStyle referenced in function _SDL_main
+Main.obj : error LNK2019: unresolved external symbol _TTF_RenderText_Blended referenced in function "void __cdecl playNew(void)" (?playNew@@YAXXZ)
+Main.obj : error LNK2019: unresolved external symbol _TTF_CloseFont referenced in function "void __cdecl cleanUp(void)" (?cleanUp@@YAXXZ)
+Main.obj : error LNK2019: unresolved external symbol _TTF_Quit referenced in function _SDL_main
+Main.obj : error LNK2019: unresolved external symbol _Mix_OpenAudio referenced in function _SDL_main
+Main.obj : error LNK2019: unresolved external symbol _Mix_LoadWAV_RW referenced in function _SDL_main
+Main.obj : error LNK2019: unresolved external symbol _Mix_LoadMUS referenced in function _SDL_main
+Main.obj : error LNK2019: unresolved external symbol _Mix_FreeChunk referenced in function "void __cdecl cleanUp(void)" (?cleanUp@@YAXXZ)
+Main.obj : error LNK2019: unresolved external symbol _Mix_FreeMusic referenced in function "void __cdecl cleanUp(void)" (?cleanUp@@YAXXZ)
+Main.obj : error LNK2019: unresolved external symbol _Mix_PlayChannelTimed referenced in function "void __cdecl doubleDown(void)" (?doubleDown@@YAXXZ)
+Main.obj : error LNK2019: unresolved external symbol _Mix_PlayMusic referenced in function _SDL_main
+Main.obj : error LNK2019: unresolved external symbol _Mix_HaltMusic referenced in function "void __cdecl cleanUp(void)" (?cleanUp@@YAXXZ)
+Main.obj : error LNK2019: unresolved external symbol _Mix_CloseAudio referenced in function _SDL_main
+MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol _main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+C:\SDL2-devel-2.0.22-VC\SDL2-2.0.22\lib\x64\sdl2.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\SDL2-devel-2.0.22-VC\SDL2-2.0.22\lib\x64\sdl2main.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\SDL2-devel-2.0.22-VC\SDL2_image-devel-2.0.5-VC\SDL2_image-2.0.5\lib\x64\sdl2_image.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\SDL2-devel-2.0.22-VC\SDL2_ttf-devel-2.0.18-VC\SDL2_ttf-2.0.18\lib\x64\sdl2_ttf.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\SDL2-devel-2.0.22-VC\SDL2_mixer-devel-2.0.4-VC\SDL2_mixer-2.0.4\lib\x64\sdl2_mixer.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+D:\Files\VGP122A3\Debug\Main.exe : fatal error LNK1120: 30 unresolved externals
