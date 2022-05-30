@@ -1,0 +1,29 @@
+﻿  Ai.cpp
+  CardDeck.cpp
+D:\Files\Blackjack\CardDeck.cpp(17,28): warning C4554: '&': check operator precedence for possible error; use parentheses to clarify precedence
+D:\Files\Blackjack\CardDeck.cpp(21,29): warning C4554: '&': check operator precedence for possible error; use parentheses to clarify precedence
+D:\Files\Blackjack\CardDeck.cpp(25,29): warning C4554: '&': check operator precedence for possible error; use parentheses to clarify precedence
+D:\Files\Blackjack\CardDeck.cpp(29,29): warning C4554: '&': check operator precedence for possible error; use parentheses to clarify precedence
+D:\Files\Blackjack\CardDeck.cpp(33,29): warning C4554: '&': check operator precedence for possible error; use parentheses to clarify precedence
+D:\Files\Blackjack\CardDeck.cpp(38,42): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+  Game.cpp
+  Player.cpp
+  Sprite.cpp
+  Main.cpp
+D:\Files\Blackjack\Main.cpp(328,37): warning C4018: '>=': signed/unsigned mismatch
+D:\Files\Blackjack\Main.cpp(446,37): warning C4018: '>=': signed/unsigned mismatch
+D:\Files\Blackjack\Main.cpp(555,39): warning C4018: '>=': signed/unsigned mismatch
+D:\Files\Blackjack\Main.cpp(608,40): warning C4018: '>=': signed/unsigned mismatch
+D:\Files\Blackjack\Main.cpp(686,38): warning C4018: '>=': signed/unsigned mismatch
+D:\Files\Blackjack\Main.cpp(732,37): warning C4018: '>=': signed/unsigned mismatch
+D:\Files\Blackjack\Main.cpp(784,36): warning C4018: '>=': signed/unsigned mismatch
+D:\Files\Blackjack\Main.cpp(844,38): warning C4018: '>=': signed/unsigned mismatch
+D:\Files\Blackjack\Main.cpp(917,36): warning C4018: '>=': signed/unsigned mismatch
+D:\Files\Blackjack\Main.cpp(1017,37): warning C4018: '>=': signed/unsigned mismatch
+D:\Files\Blackjack\Main.cpp(1069,38): warning C4018: '>=': signed/unsigned mismatch
+D:\Files\Blackjack\Main.cpp(1125,40): warning C4018: '>=': signed/unsigned mismatch
+D:\Files\Blackjack\Main.cpp(1170,38): warning C4018: '>=': signed/unsigned mismatch
+D:\Files\Blackjack\Main.cpp(1224,40): warning C4018: '>=': signed/unsigned mismatch
+  Generating Code...
+D:\Files\Blackjack\Game.cpp(84): warning C4715: 'Game::insurance': not all control paths return a value
+  BlackJack.vcxproj -> D:\Files\Blackjack\x64\Debug\Main.exe
